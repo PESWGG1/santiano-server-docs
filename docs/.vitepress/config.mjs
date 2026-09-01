@@ -10,7 +10,9 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '新手入门', link: '/guide/getting-started' },
       { text: '指令手册', link: '/guide/commands' },
-      { text: '常见问题', link: '/guide/faq' }
+      { text: '服务器规则', link: '/guide/rules' },
+      { text: '常见问题', link: '/guide/faq' },
+      { text: '赞助支持', link: '/guide/support' }
     ],
     sidebar: {
       '/guide/': [
@@ -19,13 +21,15 @@ export default defineConfig({
           items: [
             { text: '新手入门', link: '/guide/getting-started' },
             { text: '指令手册', link: '/guide/commands' },
-            { text: '常见问题', link: '/guide/faq' }
+            { text: '服务器规则', link: '/guide/rules' },
+            { text: '常见问题', link: '/guide/faq' },
+            { text: '赞助支持', link: '/guide/support' }
           ]
         }
       ]
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/PESWGG1/server-docs' }
+      { icon: 'github', link: 'https://github.com/PESWGG1/santiano-server-docs' }
     ],
     footer: {
       message: 'Santiano 服务器玩家手册',
