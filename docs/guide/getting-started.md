@@ -2,7 +2,9 @@
 
 请完全阅读服务器官网后再进入审核群。
 
-Santiano 采用审核制，服务器地址不公开。请加入审核 QQ 群 **1070493995**，按照群内要求完成审核。审核较为严格，每人只有一次填写问卷机会。
+Santiano 采用审核制，服务器地址不公开。请加入 [Santiano 审核 QQ 群](https://qm.qq.com/q/WUnFXdQ82m)（群号 **1070493995**），按照群内要求完成审核。审核较为严格，每人只有一次填写问卷机会。
+
+<a class="santiano-join-button" href="https://qm.qq.com/q/WUnFXdQ82m">加入审核群</a>
 
 ## 进入服务器
 

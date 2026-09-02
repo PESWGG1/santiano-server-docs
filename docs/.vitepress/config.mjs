@@ -1,11 +1,21 @@
 import { defineConfig } from 'vitepress'
 
+const base = process.env.GITHUB_ACTIONS ? '/santiano-server-docs/' : '/'
+
 export default defineConfig({
   title: 'Santiano · 海境',
   description: 'Peace · Freedom · Exploration — Santiano 海境服务器官网',
   lang: 'zh-CN',
   cleanUrls: true,
+  base,
+  appearance: 'dark',
+  head: [
+    ['meta', { name: 'theme-color', content: '#062936' }],
+    ['link', { rel: 'icon', type: 'image/png', href: `${base}brand/santiano-open-sea.png` }]
+  ],
   themeConfig: {
+    logo: '/brand/santiano-open-sea.png',
+    siteTitle: 'SANTIANO',
     nav: [
       { text: '首页', link: '/' },
       { text: '苏醒之后', link: '/guide/getting-started' },
@@ -35,7 +45,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/PESWGG1/santiano-server-docs' }
     ],
     footer: {
-      message: 'Santiano · 海境',
+      message: 'Peace · Freedom · Exploration',
       copyright: 'Copyright © 2026 Santiano'
     },
     outline: { label: '本页目录' },
