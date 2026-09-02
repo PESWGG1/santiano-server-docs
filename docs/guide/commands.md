@@ -1,6 +1,6 @@
-# 指令手册
+# 百科残本
 
-本页整理普通玩家可使用的常用指令。尖括号中的内容需要替换，例如 `<玩家>` 应填写实际玩家名。
+本页整理普通玩家可使用的常用指令与资料索引。尖括号中的内容需要替换，例如 `<玩家>` 应填写实际玩家名。
 
 ## 经济与商店
 
@@ -17,9 +17,11 @@
 | `/emf` | 打开 EvenMoreFish 主界面 |
 | `/emf top` | 查看钓鱼排行榜 |
 | `/emf next` | 查看下一场钓鱼比赛 |
-| `/emf toggle` | 切换原版钓鱼与 EvenMoreFish 钓鱼 |
+| `/emf toggle` | 切换原版钓鱼与 EvenMoreFish 扩展钓鱼（金币鱼） |
 | `/emf applybaits` | 将鱼饵应用到鱼竿 |
 | `/deepbluefish area` | 查看当前深蓝钓鱼区域 |
+
+默认原版钓鱼，`/emf toggle` 切换为扩展钓鱼（金币鱼）。不同群系、不同深度钓出的鱼不一样。长度越长、稀有度越高的鱼价值越高。每天有钓鱼大赛，周末和周日的钓鱼大赛奖励最丰厚。
 
 ## DirectionHUD 导航
 
@@ -100,5 +102,11 @@
 | 指令 | 用途 |
 | --- | --- |
 | `/rewards` | 打开待领取奖励 |
+
+## 附魔与维度资料
+
+- 附魔大全：[NeoEnchant](https://hardels-organization.gitbook.io/voxel/neo-enchant/enchantment)
+- 下界：[Amethyst Nether](https://modrinth.com/datapack/amethyst-nether)
+- 末地：[Stellarity](https://prismaticshards.wiki.gg/wiki/Stellarity)（部分末地群系可以虚空钓鱼）
 
 > 指令可能随服务器更新调整，请以最新公告为准。

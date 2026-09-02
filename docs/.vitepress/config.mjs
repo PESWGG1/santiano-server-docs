@@ -1,29 +1,32 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Santiano 服务器文档',
-  description: '欢迎来到海境 · Santiano 服务器玩家手册',
+  title: 'Santiano · 海境',
+  description: 'Peace · Freedom · Exploration — Santiano 海境服务器官网',
   lang: 'zh-CN',
   cleanUrls: true,
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '新手入门', link: '/guide/getting-started' },
-      { text: '指令手册', link: '/guide/commands' },
-      { text: '服务器规则', link: '/guide/rules' },
-      { text: '常见问题', link: '/guide/faq' },
-      { text: '赞助支持', link: '/guide/support' }
+      { text: '苏醒之后', link: '/guide/getting-started' },
+      { text: '海境漫游', link: '/guide/gameplay' },
+      { text: '游玩规则', link: '/guide/rules' },
+      { text: '百科残本', link: '/guide/commands' },
+      { text: '赞助支持', link: '/guide/support' },
+      { text: '致谢', link: '/guide/credits' }
     ],
     sidebar: {
       '/guide/': [
         {
-          text: '玩家手册',
+          text: '官网板块',
           items: [
-            { text: '新手入门', link: '/guide/getting-started' },
-            { text: '指令手册', link: '/guide/commands' },
-            { text: '服务器规则', link: '/guide/rules' },
-            { text: '常见问题', link: '/guide/faq' },
-            { text: '赞助支持', link: '/guide/support' }
+            { text: '苏醒之后', link: '/guide/getting-started' },
+            { text: '海境漫游', link: '/guide/gameplay' },
+            { text: '游玩规则', link: '/guide/rules' },
+            { text: '百科残本', link: '/guide/commands' },
+            { text: '赞助支持', link: '/guide/support' },
+            { text: '致谢', link: '/guide/credits' },
+            { text: '常见问题', link: '/guide/faq' }
           ]
         }
       ]
@@ -32,7 +35,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/PESWGG1/santiano-server-docs' }
     ],
     footer: {
-      message: 'Santiano 服务器玩家手册',
+      message: 'Santiano · 海境',
       copyright: 'Copyright © 2026 Santiano'
     },
     outline: { label: '本页目录' },
