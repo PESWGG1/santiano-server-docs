@@ -2,19 +2,44 @@
 
 ## 致谢玩家
 
+注：排名不分前后
+
 获得头衔【星火】：
 
-- Alstom 提供资金支持
-- VEGAAPEI 提供 AI 开发 API
+- Alstom
+  提供资金支持
+- VEGAAPEI
+  提供 AI 开发 API
 
 获得头衔【旗舰】：
 
-- arknights7777 积极参与多个内测版本，原创复兴建筑
-- cmccn42e 积极参与多个内测版本，原创复兴建筑
+- arknights7777
+  荣誉公民
+- cmccn42e
+  荣誉公民
+
+获得头衔【先驱】：
+
+- KiraHachiNat
+  参与内测
+- Ame_aki
+  参与内测
+- Auxons
+  参与内测
+- kitten_qimin
+  参与内测
+- NIoaix
+  参与内测
+- mixue
+  参与内测
+- xxs
+  参与内测
+- Fiona_555
+  参与内测
+- Authanaism
+  参与内测
 
 ## 致谢组件
-
-更新日期：2026-09-02
 
 ### 数据包
 
@@ -71,6 +96,13 @@
 
 以下为本服自建数据包/插件，不计入第三方授权范围。
 
-- DeathBoom（指定玩家死亡时发生爆炸）、DeepBlueFishing（EMF 与 DBOS 兼容与拓展）、SantianoProgression（玩家与怪物成长，怪物会佩戴玩家的头）、SantianoDeepPressure（深海压力）、SantianoShopControl（游戏内控制 EconomyShop 开关）
-- SantianoWeather（修改天气比例）、ServerRewards（全服奖励系统）、SpyglassGlow（手持望远镜发光）
-- Santiano-Pool-Compat-26.2（各组件结构兼容）、Progression-26.2（控制各世界边界与下界/末地开关）
+- SantianoDeathBoom（指定玩家死亡时发生爆炸）、
+- SantianoDeepBlueFishing（EMF 与 DBOS 兼容与拓展）、
+- SantianoProgression（玩家与怪物成长，怪物会佩戴玩家的头）、
+- SantianoDeepPressure（深海压力）、
+- SantianoShopControl（游戏内控制 EconomyShop 开关）、
+- SantianoWeather（修改天气比例）、
+- SantianoServerRewards（全服奖励系统）、
+- SantianoSpyglassGlow（手持望远镜发光）、
+- SantianoPoolCompat-26.2（各组件结构兼容）、
+- SantianoProgression-26.2（控制各世界边界与下界/末地开关）
